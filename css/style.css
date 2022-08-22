@@ -1,0 +1,432 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Monaco';
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+body {
+  font-family: 'Monaco';
+  text-align: center;
+}
+
+.colored-background {
+  background-color: #fcf8e8;
+
+}
+
+.background2 {
+  background-color: #ecdfc8;
+}
+
+.background3 {
+  background-color: #ecb390;
+}
+
+#title {
+  text-align: left;
+}
+
+.title-text {
+  line-height: 1.5;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: 'Monaco';
+  font-size: 2.5rem;
+  font-weight: bold;
+  position: relative;
+  right: 15px;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Monaco';
+}
+
+.navbar-color {
+  color=#df7861;
+}
+
+.d-grey {
+  color: #686666;
+  margin-bottom: 90px;
+}
+
+.l-grey {
+  color: #989696;
+}
+
+.btn-HomeColor {
+  background: rgba(236, 223, 200, 0.65);
+  color: #989696;
+  margin-top: 30px;
+
+}
+
+.describe1{
+  padding-bottom: 1000px;
+}
+
+/* Download botton */
+.download-botton {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+  width: 80%;
+  transform: rotate(25deg);
+  position: relative;
+  left: 20%;
+}
+
+
+.image-background1 {
+  background-image: url("../images/background1.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 900px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.image-background2 {
+  background-image: url("../images/background2.png"); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 900px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+#titleBtn {
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.big_topic {
+  font-family: 'Monaco';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 80px;
+  text-transform: uppercase;
+  color: #668866;
+}
+
+
+/*about */
+
+
+#about {
+  position: relative;
+  text-align: left;
+  height: 80px;
+  left: 90px;
+  top: 55px;
+
+}
+
+#aboutR {
+  position: absolute;
+  width: 245px;
+  height: 67px;
+  left: 100px;
+  top: 985px;
+}
+
+/* feature section */
+.features {
+  font-family: 'Monaco';
+
+  position: relative;
+
+}
+
+.features-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-title {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-size: 1.2rem;
+  font-family: 'Monaco';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #686666;
+}
+
+.feature-year {
+font-family: 'Monaco';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+text-transform: uppercase;
+color: #817D78;
+}
+
+.feature-line {
+border: 1px solid #817D78;
+transform: rotate(90deg);
+}
+
+#feature-19 {
+  position:relative;
+width: 99px;
+height: 29px;
+left: 0px;
+
+}
+
+#feature-21 {
+  position: relative;
+width: 99px;
+height: 29px;
+left: 0px;
+
+}
+
+#feature-23 {
+  position: relative;
+width: 99px;
+height: 29px;
+left: 0px;
+
+}
+
+#feature-l1 {
+  position: relative;
+width: 38px;
+height: 0px;
+left: 30px;
+
+}
+
+#feature-l2 {
+  position: relative;
+width: 38px;
+height: 0px;
+left: 30px;
+
+}
+
+#feature-school1 {
+  position: relative;
+  bottom: 150px;
+  left: 50px;
+
+}
+
+#feature-school2 {
+  position: relative;
+  bottom: 110px;
+  left: 50px;
+  padding-top: 0;
+}
+
+.skill {
+  width: 45px;
+height: 45px;
+left: 745px;
+top: 285px;
+}
+
+
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-p {
+  color: #8f8f8f;
+}
+
+.features-block {
+  padding: 5%;
+}
+
+/* portfolio */
+#portfolio {
+  position: relative;
+  text-align: left;
+height: 80px;
+  left: 90px;
+  top: 55px;
+}
+
+#portfolioR {
+position: absolute;
+width: 370px;
+height: 67px;
+left: 110px;
+top: 1790px;
+}
+
+#work {
+  position: relative;
+width: 284px;
+height: 284px;
+
+background: #D9D9D9;
+
+margin: 0px;
+color: #668866;
+
+}
+
+.coverPhoto {
+  width: 284px;
+  height: 284px;
+}
+
+.top-left {
+  position: relative;
+  top: 6px;
+  left: 50px;
+}
+
+.columnP {
+  padding: 0px;
+}
+
+.columnPB {
+  padding-bottom: 0;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+#photo {
+  position: relative;
+width: 284px;
+height: 284px;
+
+background: #D9D9D9;
+
+margin: 0px;
+color: #668866;
+
+}
+
+#photoBtn {
+			font-size: 30px;
+			text-align: center;
+}
+
+#workBtn {
+  font-size: 30px;
+  text-align: center;
+}
+
+.portfolioPosition {
+  margin: auto;
+}
+
+/* testimonial section */
+
+#contacts {
+  color: #faf3e7;
+  position: relative;
+  text-align: left;
+  height: 80px;
+  left: 90px;
+  top: 55px;
+}
+
+
+#contactsR {
+  position: absolute;
+width: 370px;
+height: 67px;
+left: 95px;
+top: 2690px;
+
+}
+ #contactInfo {
+
+font-family: 'Monaco';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+text-transform: lowercase;
+
+color: #FCF8E8;
+ }
+
+#outsideContact {
+  position: relative;
+  top:80px;
+}
+
+#linkin {
+
+}
+
+#behance {
+
+}
+
+
+
+
+
+
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+.footer-padding {
+  background-color: #df7861;
+  height: 50px;
+  padding-top: 15px;
+}
+
+#footer {
+  color: #ffffff;
+
+
+}
